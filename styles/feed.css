@@ -3,7 +3,7 @@
   margin: 30px 10px 10px 70px; /*TODO: barra lateral fixed  */
   background-color: rgb(248, 248, 248);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 450px), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
   gap: 30px;
 }
 
@@ -11,8 +11,24 @@
   width: 100%;
 }
 
+.thumbnail-container {
+  position: relative;
+}
+
+.video-time {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: white;
+  background-color: black;
+  padding: 3px 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 .thumbnail {
   width: 100%;
+  border-radius: 10px;
 }
 
 .video-content {
@@ -29,17 +45,17 @@
 }
 
 .video-title {
-  margin: 10px 7px;
-  font-size: 18px;
+  margin: 15px 5px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .video-aside {
-  margin: 15px 5px;
+  margin: 10px 5px;
 }
 
 .video-author {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   color: rgb(75, 75, 75);
 }
 

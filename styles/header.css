@@ -79,7 +79,24 @@
 .right-side {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+}
+
+.notifications-button {
+  position: relative;
+}
+
+.notifications-number {
+  position: absolute;
+  color: white;
+  background-color: red;
+  padding: 3px 8px;
+  border-radius: 50%;
+  top: -2px;
+  right: -3px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid white;
 }
 
 .upload-button,
